@@ -1,1 +1,29 @@
-/* CSS code  */
+/* CSS code for the boys  */
+
+/* unorderd list  */
+ul {
+    list-style: none
+}
+
+
+ul li{
+    display: inline-block; 
+    height: 30px;
+    padding: 6px;
+    background-color: #10243B;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
+div img{
+    display: inline-block;
+}
+
+
+div{
+    background-color:#10243B;
+    height: 30px;
+    padding: 7px;
+}
