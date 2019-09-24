@@ -13,17 +13,22 @@ ul li{
     background-color: #10243B;
     color: white;
     text-transform: uppercase;
+    border: #10243B;
     
 }
 
 
 div img{
     display: inline-block;
+    height: 40px;
+    width: 40px;
 }
 
 
 div{
     background-color:#10243B;
     height: 30px;
-    padding: 7px;
+    border: 4px;
+    border: #10243B;
+    
 }
