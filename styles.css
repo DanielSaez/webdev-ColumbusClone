@@ -1,5 +1,4 @@
 /* CSS code for the boys  */
-
 /* unorderd list  */
 body{
     margin: 0px;
@@ -25,20 +24,44 @@ div img{
     width: 40px;
 }
 
+#ul-1{
+font-weight: bold;
+display: inline-block;
+padding: 5px 5px 5px 5px;
+float: left;
+margin-top: 9px;
+}
+
+
+#ul-2{
+display: inline-block;
+float: right;
+padding: 5px 5px 5px 5px;
+margin-top: 4px;
+}
+
+
 nav {
     margin: 0px;
     background-color:#10243B;
     height: 30px;
     border: 4px;
     border: #10243B;
-    block-size: 100px;
+    block-size: 50px;
     padding: 12px;
 }
 
-
-#lightblue{
+#lightblue1{
     background-color: #005983;
     height: 16px;
-    
-       
+}
+
+#lightblue2{
+background-color: #005983;
+}
+
+.search{
+height: 15px;
+width: 15px;
+
 }
