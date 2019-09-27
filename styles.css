@@ -1,22 +1,22 @@
 /* CSS code for the boys  */
-
 /* unorderd list  */
+body{
+    margin: 0px;
+}
+
 ul {
     list-style: none
 }
 
-
 ul li{
     display: inline-block; 
     height: 30px;
-    padding: 6px;
+    padding: 5px 5px 5px 5px;
     background-color: #10243B;
     color: white;
     text-transform: uppercase;
     border: #10243B;
-    
 }
-
 
 div img{
     display: inline-block;
@@ -24,11 +24,59 @@ div img{
     width: 40px;
 }
 
+#ul-1{
+font-weight: bold;
+display: inline-block;
+padding: 5px 5px 5px 5px;
+float: left;
+margin-top: 9px;
+}
 
-div{
+#ul-2{
+display: inline-block;
+float: right;
+padding: 5px 5px 5px 5px;
+margin-top: 4px;
+}
+
+
+nav {
+    margin: 0px;
     background-color:#10243B;
     height: 30px;
     border: 4px;
     border: #10243B;
-    
+    block-size: 50px;
+    padding: 12px;
 }
+
+#lightblue1{
+    background-color: #005983;
+    height: 16px;
+}
+
+#lightblue2{
+background-color: #005983;
+}
+
+.search{
+height: 15px;
+width: 15px;
+}
+
+
+#fans{
+height:925px ;
+}
+
+#explore{
+    
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+    padding-left: 700px;
+    padding-right: 70000px;
+    background-color: #10243B;
+    color: white;
+}
+
