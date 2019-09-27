@@ -1,5 +1,11 @@
 /* CSS code for the boys  */
 /* unorderd list  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     margin: 0px;
 }
@@ -31,7 +37,6 @@ padding: 5px 5px 5px 5px;
 float: left;
 margin-top: 9px;
 }
-<<<<<<< HEAD
 
 #ul-2{
 display: inline-block;
@@ -40,17 +45,6 @@ padding: 5px 5px 5px 5px;
 margin-top: 4px;
 }
 
-=======
-
-
-#ul-2{
-display: inline-block;
-float: right;
-padding: 5px 5px 5px 5px;
-margin-top: 4px;
-}
-
->>>>>>> 6877f4ed2a1b1a6f6f70c820bd859224af6e4767
 
 nav {
     margin: 0px;
@@ -74,26 +68,27 @@ background-color: #005983;
 .search{
 height: 15px;
 width: 15px;
-<<<<<<< HEAD
 }
 
 
 #fans{
-height:925px ;
+height:1000px ;
+width: 100%;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
 }
 
 #explore{
-    
-    text-transform: uppercase;
-    display: inline;
-    float: left;
-    padding-left: 700px;
-    padding-right: 70000px;
+    text-align: center;
     background-color: #10243B;
     color: white;
+    font-weight: bold;
 }
 
-=======
-
+#exploreh{
+    width: 24.5%;
+    height: 25.5%;
 }
->>>>>>> 6877f4ed2a1b1a6f6f70c820bd859224af6e4767
+#exploreh-divs{
+    
+    
+}
