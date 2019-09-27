@@ -31,6 +31,7 @@ padding: 5px 5px 5px 5px;
 float: left;
 margin-top: 9px;
 }
+<<<<<<< HEAD
 
 #ul-2{
 display: inline-block;
@@ -39,6 +40,17 @@ padding: 5px 5px 5px 5px;
 margin-top: 4px;
 }
 
+=======
+
+
+#ul-2{
+display: inline-block;
+float: right;
+padding: 5px 5px 5px 5px;
+margin-top: 4px;
+}
+
+>>>>>>> 6877f4ed2a1b1a6f6f70c820bd859224af6e4767
 
 nav {
     margin: 0px;
@@ -62,6 +74,7 @@ background-color: #005983;
 .search{
 height: 15px;
 width: 15px;
+<<<<<<< HEAD
 }
 
 
@@ -80,3 +93,7 @@ height:925px ;
     color: white;
 }
 
+=======
+
+}
+>>>>>>> 6877f4ed2a1b1a6f6f70c820bd859224af6e4767
