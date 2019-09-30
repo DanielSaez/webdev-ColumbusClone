@@ -129,51 +129,7 @@ height: 24.5%;
 width: 24.5%;
 }
 
-#ul-3-connect{
-    display: inline-block;
-    float: left;
-    background-color: #10243B;
-}
-
-#ul-4-connect{
-    display: inline-block;
-     float: left;
-    color: #10243B;
-    margin-left: 400px;
-    
-}
-
-#ul-5-connect{
-    display: inline-block;
-    float: right;  
-    background-color: #10243B;
-
-}
 
 
 
-#MissionDiv{
-height: 800px;
-background-color:#333333;
-padding; align-self: auto;
-margin-top:50px; 
-
-}
-
-#MissionH1{
-
-
-}
-
-
-#MissionH5{
-color: #707070;
-border-right: 50%;
-{
-
-#MissionSeal{
-float: right;
-height:  50px;
-width: 50px;
-}
 
