@@ -10,19 +10,6 @@ body{
     margin: 0px;
 }
 
-ul {
-    list-style: none
-}
-
-nav ul li{
-    display: inline-block; 
-    height: 30px;
-    padding: 5px 5px 5px 5px;
-    background-color: #10243B;
-    color: white;
-    text-transform: uppercase;
-    border: #10243B;
-}
 
 div img{
     display: inline-block;
@@ -30,42 +17,52 @@ div img{
     width: 40px;
 }
 
+#topnav{
+background-color: #10243B;
+color: rgb(255, 255, 255);
+width: 100%;
+height: 50px 
+ 
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 25px;
+
+}
+
+#ul-1, #ul-2{
+list-style-type: none;
+
+
+
+
+}
+
 #ul-1{
-font-weight: bold;
-display: inline-block;
-padding: 5px 5px 5px 5px;
 float: left;
-margin-top: 9px;
-font-family: 'PT Sans Narrow', sans-serif;
+border-top: 10px;
 }
 
 #ul-2{
-display: inline-block;
-float: right;
-padding: 5px 5px 5px 5px;
-margin-top: 4px;
-font-family: 'PT Sans Narrow', sans-serif;
+ float: right;
 }
 
 
-nav {
-    margin: 0px;
-    background-color:#10243B;
-    height: 30px;
-    border: 4px;
-    border: #10243B;
-    block-size: 50px;
-    padding: 12px;
-}
+
+
 
 #lightblue1{
-    background-color: #005983;
-    height: 16px;
+    
 }
 
 #lightblue2{
-background-color: #005983;
+
 }
+
+
+
+
 
 .search{
 height: 15px;
