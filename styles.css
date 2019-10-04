@@ -21,22 +21,20 @@ div img{
 background-color: #10243B;
 color: rgb(255, 255, 255);
 width: 100%;
-height: 50px 
+height: 50px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
  
 }
 li {
     list-style-type: none;
     display: inline;
     padding-right: 25px;
-
 }
 
 #ul-1, #ul-2{
 list-style-type: none;
-
-
-
-
 }
 
 #ul-1{
@@ -90,21 +88,43 @@ background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(im
 
 }
 
+/* AT A GLANCE */
 
-
-#glance{
-    text-align:center;
+.glancebox {
+    height: 300px;
+    width: 24.8%;
+    display: inline-block;
+}
+.ataglance {
+    height: 400px;
+    width: 100%;
     background-color: white;
-    color: #10243B;
+    padding-bottom: 100px;
+}
+#glancephoto {
+    background-size: cover;
+    position: center;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    padding-left: 20%
+}
+.glancetop {
+    font-size: 1.875em;
+    color: #dd0e38;
+    margin-top: 0;
     font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.glancebottom {
+    margin-bottom: 10px;
+    font-size: 1.125em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #00344C;
+    text-align: center;
 }
 
-
-
-#glance-e{
-    width: 24.5%;
-    height: 24.5%;
-}
 
 
 #flex1{
@@ -135,20 +155,62 @@ width: 24.5%;
 
 /*--------------------------------------------- feet stuff --------------------------------------------------*/
 
-#footer{
+#footer {
+    width: 100%;
     height: 400px;
+    background-color: #10243B;
+    color: white;
+}
+#footernav {
     width: 100%;
+    height: 50px;
 }
 
-#footer-nav{
-    height: 75px;
-    width: 100%;
-    background: #10243B;
+#leftFloat,#rightFloat {
     display: inline-block;
-
+    padding-top: 12.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-
-#footer-left  {
-    display: inline;
-    background-color: blue;
+#rightFloat {
+    float: right;
+    padding-top: 11px;
+}
+#footercontent {
+    height: 340px;
+    width: 100%;
+    background-color: #333;
+}
+#contactinfo{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+.right {
+    float: right;
+}
+#mission-statement {
+    width: 60%;
+    height: 250px;
+    margin: 50px 0px 0px 75px;
+    font-style: italic;
+    margin-bottom: 50px;
+    opacity: .5;
+    font-size: .875em;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #fafafa;
+    padding: 10px;
+    vertical-align: middle;
+}
+#SMPICS{
+    color:  #0088cc;
+}
+#seal{
+    float: right;
+    padding-top: 5%;
+    margin-left: 10%;
 }
